@@ -6,6 +6,7 @@ module OmniAuth
         attr_accessor :document
 
         def initialize(document)
+          puts document.to_s
           @document = document
         end
 
